@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  background-color:rgb(158, 57, 247);
+padding: 10px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items:center;
 }
-
+.ram{
+  width: 500px;
+  padding: 10px;
+  border: 1px solid rgb(5, 84, 116);
+  background-color:rgb(242, 234, 248);
+height: 300px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +47,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+li{
+  list-style: none;
+  border: 1px solid black ;
 }
