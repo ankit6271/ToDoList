@@ -31,7 +31,7 @@ function deleteData(index){
         <h2 className="text-alert" >To Do List</h2>
         <input style={{ marginRight: 10, marginTop: 25 }} type="text" onChange={typeData} placeholder="Add to list" />
         <button className="btn btn-info" onClick={setData}>Set Data</button>
-        <ol>
+        <ol style={{ marginTop: 20 }}>
           {
             set.map((values, index) => {
               return (
